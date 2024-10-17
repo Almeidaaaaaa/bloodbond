@@ -1,0 +1,77 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+    margin: 0;
+    background: linear-gradient(to top, #FFC5C5, #E5E5EA);
+  }
+  
+  .phone-number-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff; /* Fundo vermelho claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    text-align: center;
+    color: #c00; /* Cor do título em vermelho escuro */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: black; /* Texto em preto */
+  }
+  
+  input[type="tel"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #c00; /* Botão vermelho */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a00; /* Botão vermelho escuro ao passar o mouse */
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: black; /* Cor da mensagem em preto */
+  }
+  .checkbox-container {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack vertically */
+    gap: 10px; /* Space between checkbox items if needed */
+  }
+  
+  /* Add margin to individual checkbox items */
+  .checkbox-container > div {
+    display: flex; /* Keep Flexbox for inline alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Add space below each checkbox */
+  }
+  
+  #nottext {
+    margin-bottom: 15px; /* Adjust this value as needed */
+  }
+    
